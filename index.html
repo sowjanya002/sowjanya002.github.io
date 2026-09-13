@@ -696,7 +696,7 @@
       <h2 class="section-title">Let's talk about a role, or a dataset.</h2>
       <p class="section-lede">Open to Data Analyst roles and happy to walk through any project in more depth.</p>
       <div class="contact-links">
-        <a href="mailto:krishna.akella365@gmail.com">Email <span class="arrow">&#8594;</span></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=krishna.akella365@gmail.com&su=Portfolio%20Inquiry" target="_blank" rel="noopener">Email <span class="arrow">&#8594;</span></a>
         <a href="https://www.linkedin.com/in/sowjanya-akella-449983304" target="_blank" rel="noopener">LinkedIn <span class="arrow">&#8594;</span></a>
         <a href="https://github.com/sowjanya002" target="_blank" rel="noopener">GitHub <span class="arrow">&#8594;</span></a>
       </div>
@@ -729,7 +729,7 @@
       <div class="footer-links">
         <a href="https://www.linkedin.com/in/sowjanya-akella-449983304" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://github.com/sowjanya002" target="_blank" rel="noopener">GitHub</a>
-        <a href="mailto:krishna.akella365@gmail.com">Email</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=krishna.akella365@gmail.com&su=Portfolio%20Inquiry" target="_blank" rel="noopener">Email</a>
       </div>
     </div>
     <div class="footer-copy">&copy; 2026 Krishna Sowjanya Akella. All rights reserved.</div>
@@ -886,7 +886,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
   const msg = document.getElementById('cmsg').value;
   const subject = encodeURIComponent('Portfolio contact from ' + name);
   const body = encodeURIComponent(msg + '\n\n— ' + name + ' (' + email + ')');
-  window.location.href = `mailto:krishna.akella365@gmail.com?subject=${subject}&body=${body}`;
+  window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=krishna.akella365@gmail.com&su=${subject}&body=${body}`, '_blank');
   const note = document.getElementById('form-note');
   note.style.display = 'block';
   note.textContent = 'Opening your email client to send this message...';
